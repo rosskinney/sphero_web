@@ -6,6 +6,8 @@ gem 'rails', '4.0.0.rc1'
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
+  gem 'sphero'
+  gem 'debugger'
 
   if RUBY_PLATFORM.downcase.include?("darwin")
     gem 'rb-fsevent'

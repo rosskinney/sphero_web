@@ -1,4 +1,4 @@
-#require 'sphero'
+require 'sphero'
 require 'sphero_colors'
 
 class ApplicationController < ActionController::Base

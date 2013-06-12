@@ -10,16 +10,6 @@
     <p></p>
 <% end %>
 
-<%= form_tag({:action => :set_color_via_wav_file}, :multipart => true) do %>
-    <%= label_tag 'Select a WAV file:' %>
-    <%= file_field_tag 'command' %>
-    <%= submit_tag 'Set Sphero Color Via AT&T TTS', :class => 'button'%>
-<% end %>
-
-<% 5.times do %>
-    <p></p>
-<% end %>
-
 <%= form_tag '/sphero_control/send_morse_code' do %>
     <%= label_tag 'Enter Text:' %>
     <%= text_field_tag 'text' %>

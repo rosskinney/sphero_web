@@ -11,8 +11,8 @@ class SpheroControlController < ApplicationController
   def send_morse_code
     sphero.back_led_output = 0
     sphero.rgb(0,0,0)
-    translated_string = MorseCode.new(params[:text])
-    translated_string.to_morse.each do |morse_letter|
+    translated_string = MorseCode.new.translate(params[:text])
+    translated_string.split(' ').each do |morse_letter|
       Rails.logger.debug(morse_letter)
       morse_letter.split('').each do |dit_dah|
         next if dit_dah == ' '
