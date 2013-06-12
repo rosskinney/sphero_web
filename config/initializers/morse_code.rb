@@ -1,0 +1,1 @@
+require 'morse_code'
