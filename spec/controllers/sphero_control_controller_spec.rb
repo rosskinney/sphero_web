@@ -16,7 +16,8 @@ describe SpheroControlController do
       expect(flash[:notice]).to eq("Color set to red")
     end
     it "sets the drop down list correctly" do
-      post_via_redirect :set_color, :color => "red,255,0,0"
+      #post_via_redirect :set_color, :color => "red,255,0,0"
+      get(response.location :set_color, :color => "red,255,0,0")
       #debugger
       #follow_redirect!
       expect(response.response_code).to eq(200)

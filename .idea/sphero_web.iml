@@ -30,6 +30,10 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.2, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="columnize (v0.3.6, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debugger (v1.5.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debugger-linecache (v1.2.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debugger-ruby_core_source (v1.2.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.4, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
@@ -68,7 +72,9 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.0.rc1, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.3.20, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="serialport (v1.1.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="slop (v3.4.4, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sphero (v1.0.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.10.0, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.0.0.rc4, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.18.1, RVM: ruby-2.0.0-p0 [rails4.0.0rc1]) [gem]" level="application" />
